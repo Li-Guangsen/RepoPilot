@@ -1,0 +1,25 @@
+# DeerFlow upstream source
+upstream/
+
+# Secrets and configuration
+.env
+.env.*
+!.env.example
+config.yaml
+config.yaml.bak
+extensions_config.json
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
